@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css'; // <--- ESTA LINHA TEM QUE ESTAR AQUI
-import App from './App';
+import App from './App'; // Isso importa seu App.js
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

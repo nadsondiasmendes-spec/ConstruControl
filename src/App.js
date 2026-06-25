@@ -701,7 +701,7 @@ const syncToSheets = async (tabela, dados) => {
                     onClick={() => { setIsObraModalOpen(true); }}
                     className="flex items-center gap-2 bg-amber-500 text-slate-950 hover:bg-amber-400 transition font-bold px-4 py-2 rounded-lg text-sm"
                   >
-                    <Plus className="w-4 h-4" /> Cadastrar Obra
+                    <span><Plus className="w-4 h-4" /></span> Cadastrar Obra
                   </button>
                   <button 
                     onClick={() => { setIsDespesaModalOpen(true); }}
@@ -881,7 +881,7 @@ const syncToSheets = async (tabela, dados) => {
                     }}
                     className="w-full mt-4 bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 font-bold text-xs py-2 rounded-xl transition flex items-center justify-center gap-1.5"
                   >
-                    <Plus className="w-3.5 h-3.5 text-rose-400" /> Lançar Nova Retirada / Pró-labore
+                    <span><Plus className="w-3.5 h-3.5 text-rose-400" /></span> Lançar Nova Retirada / Pró-labore
                   </button>
                 </div>
 
@@ -901,7 +901,7 @@ const syncToSheets = async (tabela, dados) => {
                   onClick={() => { setIsObraModalOpen(true); }}
                   className="flex items-center gap-2 bg-amber-500 text-slate-950 hover:bg-amber-400 transition font-bold px-4 py-2 rounded-lg text-sm"
                 >
-                  <Plus className="w-4 h-4" /> Cadastrar Nova Obra
+                  <span><Plus className="w-4 h-4" /></span> Cadastrar Nova Obra
                 </button>
               </div>
 
@@ -1168,14 +1168,14 @@ const syncToSheets = async (tabela, dados) => {
                     onClick={() => { setIsDespesaModalOpen(true); }}
                     className="flex items-center justify-center gap-2 bg-rose-600 hover:bg-rose-500 text-white transition font-bold px-4 py-2 rounded-lg text-sm"
                   >
-                    <Plus className="w-4 h-4" /> Nova Despesa / Retirada
+                    <span><Plus className="w-4 h-4" /></span> Nova Despesa / Retirada
                   </button>
                 ) : (
                   <button 
                     onClick={() => { setIsReceiptModalOpen(true); }}
                     className="flex items-center justify-center gap-2 bg-emerald-500 text-slate-950 hover:bg-emerald-400 transition font-bold px-4 py-2 rounded-lg text-sm"
                   >
-                    <Plus className="w-4 h-4" /> Registrar Entrada / Aporte
+                    <span><Plus className="w-4 h-4" /></span> Registrar Entrada / Aporte
                   </button>
                 )}
               </div>
@@ -1371,7 +1371,7 @@ const syncToSheets = async (tabela, dados) => {
                   onClick={() => { setIsEstoqueModalOpen(true); }}
                   className="flex items-center gap-2 bg-amber-500 text-slate-950 hover:bg-amber-400 transition font-bold px-4 py-2 rounded-lg text-sm"
                 >
-                  <Plus className="w-4 h-4" /> Novo Item de Estoque
+                  <span><Plus className="w-4 h-4" /></span> Novo Item de Estoque
                 </button>
               </div>
 
